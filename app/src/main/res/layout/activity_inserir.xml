@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InserirActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:id="@+id/edtName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Nome do Personagem"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/edtHeith"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Altura do Personagem"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/edtMass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Peso de Personagem"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/edtHairColor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Cor do cabelo do personagem"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/edtSkinColor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Cor da pele do personagem"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/edtEyeColor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Cor dos olhos do personagem"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/edtBirthYear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Ano de nascimento do personagem"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/edtGender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Gênero do personagem"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/edtNomeDoPlanetaNatal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Planeta natal do personagem"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/edtNomeDaEspecie"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Espécie do personagem"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/btnConfirmar"
+            android:textAllCaps="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Confirmar" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
